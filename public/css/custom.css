@@ -1,0 +1,97 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 45px;
+}
+.navbar-inverse {
+  background-color: #337ab7;
+  border-color: #080808;
+}
+.badge {
+  background-color: #337ab7;
+}
+.navbar .navbar-brand {
+  font-size: 20px;
+  color: #eee;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+.navbar .navbar-brand strong {
+  font-weight: bold;
+  letter-spacing: -2px;
+  padding-right: 3px;
+  color: #fff;
+}
+h1.header-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+.pull-right .btn {
+  margin: 20px 0 10px;
+}
+.list-group-item:hover {
+  background: lightgrey;
+}
+
+.list-group-item:hover .buttons{
+  display: block;
+}
+.list-group-item-heading {
+  font-size: 150%;
+}
+
+.list-group-item-text {
+  color: #999;
+}
+
+.buttons {
+  position: absolute;
+  width: 80px;
+  top: 10px;
+  right: 10px;
+  text-align: center;
+  display: none;
+}
+.panel-footer, .modal-footer {
+  color: darkgrey;
+}
+.modal-content {
+  background: #eee url('../img/body-bg.png')
+}
+input.task-input {
+  width: 100%;
+  border: none;
+  font-size: 18px;
+  height: 46px;
+  line-height: 1.3333;
+  color: #555;
+  display: block;
+  font-style: italic;
+}
+input.task-input:focus, 
+input.task-input:active {
+  outline: none;
+  font-style: normal;
+}
+.task-item-title {
+  position: relative;
+}
+.done {
+  text-decoration:line-through;
+  color: #ddd;
+}
+table.table tbody tr td {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+table.table tbody tr td:hover .row-buttons {
+  display: block;
+}
+.row-buttons {
+  width: 40px;
+  display: none;
+  top: 15px;
+}
+.hidden {
+  display: hidden;
+}
